@@ -37,15 +37,16 @@ const heroBalam = {
 }
 
 // সেম কাজটা নিচে সর্টকার্ট Call apply ব্যবহার করে করা যায়
+
 kibria.treatDay(100);
 const heroTreatDey = kibria.treatDay.bind(heroBalam);
 heroTreatDey(500);
 heroTreatDey(500);
 
-call
+// call
 
 kibria.treatDay.call(heroBalam,500,100,10)
 
-Apply
+// Apply
 
 kibria.treatDay.apply(heroBalam,[500,100,10])
